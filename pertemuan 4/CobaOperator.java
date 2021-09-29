@@ -6,15 +6,14 @@ public class CobaOperator {
         System.out.println("hasil =" + hasil);
         x = x + 1;
         System.out.println("hasil x =" + x);
-        ++x;
+        x++;
         System.out.println("Nilai x ="+ x);
-        x++;
+        ++x;
+        System.out.println("Nilai x =" + x);
+        ++x;
         System.out.println("Nilai x =" + x);
         x++;
         System.out.println("Nilai x =" + x);
-        System.out.println("Nilai x =" + x++);
-        System.out.println("Nilai x =" + x++);
-        System.out.println("Nilai x =" + ++x);
 
     }
 }
