@@ -5,9 +5,9 @@ public class Tugas7 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Masukan nilai n = ");
         int n = scan.nextInt();
-        if (n % 2 == 0) {
+        if (n % 2 == 0) { //bilangan genap
             for (int i = 1; i <= (n + 1) ; i++) {
-               if (i <= n/2) {
+               if (i <= n/2) {  // segitiga pertama ada 2 baris
                     for (int j = 1; j <= i-1; j++) {
                         System.out.print(" ");
                     }
@@ -19,7 +19,7 @@ public class Tugas7 {
                         }
                     }
                     System.out.println();
-                } else {
+                } else {  // segitiga kedua ada 3 baris
                     for (int j = 1; j <= (n+1)-i; j++) {
                         System.out.print(" ");
                     }
@@ -33,7 +33,7 @@ public class Tugas7 {
                     System.out.println();
                 }
             }
-        } else {
+        } else {  //bilangan ganjil
             for (int i = 1; i <= n ; i++) {
                 if (i <= n/2) {
                     for (int j = 1; j <= i-1; j++) {
@@ -54,6 +54,5 @@ public class Tugas7 {
                 }
             }
         }
-
     }
 }
