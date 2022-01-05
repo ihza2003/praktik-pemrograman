@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class Tugas8 {
-    public static void main(String[] args) {
-        String[] nama = new String[1000];
+    public static void main(String[] args)  {
+        String[] nama = new String[1000]; // dia bisa memasukan nama sebanyak 1000 kali
         double[] ipk = new double[1000];
         String[] ex = {"Exit", "exit"};
         int i;
         double total = 0;
         for (i = 1; i <= 1000; i++) {
-            Scanner scan = new Scanner(System.in);
+            Scanner scan = new Scanner(System.in); 
             System.out.println("Data " + i + " : ");
             System.out.print("Nama Mahasiswa = ");
             String namacek = scan.nextLine();
